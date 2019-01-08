@@ -7,9 +7,9 @@ class Pokecard extends Component {
     }.png`;
 
     return (
-      <div className="card">
+      <div className="card col-4">
         <h3>{this.props.name}</h3>
-        <img src={imgUrl} alt="" />
+        <img src={imgUrl} alt="" className="align-self-center" />
         <p>Type: {this.props.type}</p>
         <p>EXP: {this.props.experience}</p>
       </div>

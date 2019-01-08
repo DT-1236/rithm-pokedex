@@ -24,7 +24,7 @@ class Pokedex extends Component {
         experience={p.base_experience}
       />
     ));
-    return <div className="d-flex flex-wrap">{cards}</div>;
+    return <div className="row">{cards}</div>;
   }
 }
 
