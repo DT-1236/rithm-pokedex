@@ -24,7 +24,16 @@ class Pokedex extends Component {
         experience={p.base_experience}
       />
     ));
-    return <div className="row">{cards}</div>;
+    return (
+      <div className="row">
+        {cards}
+        {this.props.isWinner ? (
+          <p className="h2">THIS HAND WINS!</p>
+        ) : (
+          <p className="lead">This hand lost :(</p>
+        )}
+      </div>
+    );
   }
 }
 
