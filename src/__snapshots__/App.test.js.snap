@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<App>
+  <div
+    className="App"
+  >
+    <Pokedex
+      pokemon={
+        Array [
+          Object {
+            "base_experience": 62,
+            "id": 4,
+            "name": "Charmander",
+            "type": "fire",
+          },
+          Object {
+            "base_experience": 63,
+            "id": 7,
+            "name": "Squirtle",
+            "type": "water",
+          },
+          Object {
+            "base_experience": 72,
+            "id": 11,
+            "name": "Metapod",
+            "type": "bug",
+          },
+          Object {
+            "base_experience": 178,
+            "id": 12,
+            "name": "Butterfree",
+            "type": "flying",
+          },
+          Object {
+            "base_experience": 112,
+            "id": 25,
+            "name": "Pikachu",
+            "type": "electric",
+          },
+          Object {
+            "base_experience": 95,
+            "id": 39,
+            "name": "Jigglypuff",
+            "type": "normal",
+          },
+          Object {
+            "base_experience": 225,
+            "id": 94,
+            "name": "Gengar",
+            "type": "poison",
+          },
+          Object {
+            "base_experience": 65,
+            "id": 133,
+            "name": "Eevee",
+            "type": "normal",
+          },
+        ]
+      }
+    >
+      <div
+        className="d-flex flex-wrap"
+      >
+        <Pokecard
+          experience={62}
+          id={4}
+          name="Charmander"
+          type="fire"
+        >
+          <div
+            className="card"
+          >
+            <h3>
+              Charmander
+            </h3>
+            <img
+              alt=""
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+            />
+            <p>
+              Type: 
+              fire
+            </p>
+            <p>
+              EXP: 
+              62
+            </p>
+          </div>
+        </Pokecard>
+        <Pokecard
+          experience={63}
+          id={7}
+          name="Squirtle"
+          type="water"
+        >
+          <div
+            className="card"
+          >
+            <h3>
+              Squirtle
+            </h3>
+            <img
+              alt=""
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+            />
+            <p>
+              Type: 
+              water
+            </p>
+            <p>
+              EXP: 
+              63
+            </p>
+          </div>
+        </Pokecard>
+        <Pokecard
+          experience={72}
+          id={11}
+          name="Metapod"
+          type="bug"
+        >
+          <div
+            className="card"
+          >
+            <h3>
+              Metapod
+            </h3>
+            <img
+              alt=""
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+            />
+            <p>
+              Type: 
+              bug
+            </p>
+            <p>
+              EXP: 
+              72
+            </p>
+          </div>
+        </Pokecard>
+        <Pokecard
+          experience={178}
+          id={12}
+          name="Butterfree"
+          type="flying"
+        >
+          <div
+            className="card"
+          >
+            <h3>
+              Butterfree
+            </h3>
+            <img
+              alt=""
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+            />
+            <p>
+              Type: 
+              flying
+            </p>
+            <p>
+              EXP: 
+              178
+            </p>
+          </div>
+        </Pokecard>
+        <Pokecard
+          experience={112}
+          id={25}
+          name="Pikachu"
+          type="electric"
+        >
+          <div
+            className="card"
+          >
+            <h3>
+              Pikachu
+            </h3>
+            <img
+              alt=""
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+            />
+            <p>
+              Type: 
+              electric
+            </p>
+            <p>
+              EXP: 
+              112
+            </p>
+          </div>
+        </Pokecard>
+        <Pokecard
+          experience={95}
+          id={39}
+          name="Jigglypuff"
+          type="normal"
+        >
+          <div
+            className="card"
+          >
+            <h3>
+              Jigglypuff
+            </h3>
+            <img
+              alt=""
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
+            />
+            <p>
+              Type: 
+              normal
+            </p>
+            <p>
+              EXP: 
+              95
+            </p>
+          </div>
+        </Pokecard>
+        <Pokecard
+          experience={225}
+          id={94}
+          name="Gengar"
+          type="poison"
+        >
+          <div
+            className="card"
+          >
+            <h3>
+              Gengar
+            </h3>
+            <img
+              alt=""
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
+            />
+            <p>
+              Type: 
+              poison
+            </p>
+            <p>
+              EXP: 
+              225
+            </p>
+          </div>
+        </Pokecard>
+        <Pokecard
+          experience={65}
+          id={133}
+          name="Eevee"
+          type="normal"
+        >
+          <div
+            className="card"
+          >
+            <h3>
+              Eevee
+            </h3>
+            <img
+              alt=""
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+            />
+            <p>
+              Type: 
+              normal
+            </p>
+            <p>
+              EXP: 
+              65
+            </p>
+          </div>
+        </Pokecard>
+      </div>
+    </Pokedex>
+  </div>
+</App>
+`;

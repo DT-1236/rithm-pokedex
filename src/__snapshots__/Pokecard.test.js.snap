@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="card"
+>
+  <h3 />
+  <img
+    alt=""
+    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/undefined.png"
+  />
+  <p>
+    Type: 
+  </p>
+  <p>
+    EXP: 
+  </p>
+</div>
+`;
